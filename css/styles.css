@@ -113,8 +113,12 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-nav .link:hover::after,
-.link-nav .link:focus::after {
+.link-nav .link:hover,
+.link-nav .link:focus {
+    color: #404BBF;
+}
+
+.link-nav .link::after {
     content: "";
     width: 100%;
     position: absolute;
